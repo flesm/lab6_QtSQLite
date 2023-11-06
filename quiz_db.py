@@ -28,7 +28,7 @@ insert_answers = [
     (5, 'Дадома', 0),
     (5, 'Мбабане', 0),
     (5, 'Нгерулмуд', 1),
-]
+    ]
 
 with sqlite3.connect('database.db') as db:
     cursor = db.cursor()
